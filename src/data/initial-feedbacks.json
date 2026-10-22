@@ -1,0 +1,32 @@
+[
+  {
+    "id": "fb-1",
+    "createdAt": "2026-10-22T09:15:00-03:00",
+    "targetSeller": "Anne",
+    "author": "Claude MCP",
+    "severity": "positivo",
+    "title": "Excelente Taxa de Conversão Geral (26,1%)",
+    "message": "Parabéns Anne! Sua taxa de fechamento está em 26,1% (12 associados de 46 leads), superando com folga a meta mínima da Autocar de 15%. Destaque para o fechamento rápido de leads vindos de Indicação e Orgânico.",
+    "read": false
+  },
+  {
+    "id": "fb-2",
+    "createdAt": "2026-10-22T09:16:00-03:00",
+    "targetSeller": "Anne",
+    "author": "Claude MCP",
+    "severity": "critico",
+    "title": "Gargalo Crítico: 0% de Conversão em Tráfego Pago + Descarte antes do D+10",
+    "message": "Identificamos 25 leads de Tráfego Pago com 0 fechamentos até agora. Além disso, 7 leads foram marcados como Perdido/Desqualificado antes de completar a cadência recomendada até o 10º dia (D+10). Priorize hoje os leads em 'Proposta enviada' (Fernanda, Chave, Daniel, Lucivania e Clarisse).",
+    "read": false
+  },
+  {
+    "id": "fb-3",
+    "createdAt": "2026-10-22T09:17:00-03:00",
+    "targetSeller": "Anne",
+    "author": "Gestor",
+    "severity": "atencao",
+    "title": "Atenção à Janela de Ouro (Contato em ≤ 5 min)",
+    "message": "Sua velocidade de contato em até 5 min está em 63,0% (meta: ≥ 70%). Nos leads de Tráfego Pago que chegaram fora do horário ou no fim da tarde (ex: Bernadete, Sergiberto, Chave), tente enviar um Áudio WZ no primeiro minuto do expediente seguinte.",
+    "read": false
+  }
+]

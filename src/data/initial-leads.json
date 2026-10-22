@@ -1,0 +1,4510 @@
+[
+  {
+    "id": "lead-1",
+    "number": 1,
+    "entryDate": "2026-09-30",
+    "name": "Joseildo",
+    "phone": "(81) 99412-7172",
+    "origin": "Outros",
+    "vehicle": "Fiesta",
+    "qualified": "Sim",
+    "stage": "Fechado",
+    "status": "Associado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-09-30",
+    "contactsCount": 2,
+    "mainObjection": "",
+    "proposalValue": 100.0,
+    "closingDate": "2026-10-02",
+    "result": "Fechado",
+    "notes": "Em negociação com o lead, pois havia passado o valor de mensalidade de R$115,00 no exclusivo e ele achou caro, mas por ligação entendi isso e vou passar por R$100 dando R$5,50 de desconto no valor original da mensalidade do querido //  FECHOU",
+    "seller": "Anne",
+    "channel": "Ligação",
+    "responded": "Sim",
+    "noResponseReason": "FECHADO",
+    "followupStatus": "Fechado",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-01",
+        "channel": "Ligação",
+        "responded": true
+      },
+      "d2": {
+        "day": 2,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pulado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pulado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pulado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-2",
+    "number": 2,
+    "entryDate": "2026-09-25",
+    "name": "Vitor",
+    "phone": "(81) 97337-7292",
+    "origin": "Orgânico",
+    "vehicle": "Onix",
+    "qualified": "Sim",
+    "stage": "Fechado",
+    "status": "Associado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-09-25",
+    "contactsCount": 7,
+    "mainObjection": "",
+    "proposalValue": 130.0,
+    "closingDate": "2026-10-02",
+    "result": "Fechado",
+    "notes": "Lead veio pelo instagram, após a tratativa lead realizou o fechamento",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Sim",
+    "noResponseReason": "FECHADO",
+    "followupStatus": "Fechado",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-09-26",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-09-26",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-09-28",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d4": {
+        "day": 4,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d5": {
+        "day": 5,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d6": {
+        "day": 6,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d7": {
+        "day": 7,
+        "status": "Feito",
+        "date": "2026-09-29",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d8": {
+        "day": 8,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pulado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-3",
+    "number": 3,
+    "entryDate": "2026-10-02",
+    "name": "Wesley",
+    "phone": "(81) 97334-2498",
+    "origin": "Tráfego pago",
+    "vehicle": "Gol",
+    "qualified": "A verificar",
+    "stage": "Proposta enviada",
+    "status": "Aguardando",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-02",
+    "contactsCount": 7,
+    "mainObjection": "Outro",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Perdido",
+    "notes": "O lead não gostou do plano por não cobrir em casos de incendio.",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Lead queria um plano que cobrisse incendio em outros casos além de colisão",
+    "followupStatus": "Retentar",
+    "nextContactDate": "2026-10-13",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-03",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-03",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-06",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Feito",
+        "date": "2026-10-13",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-4",
+    "number": 4,
+    "entryDate": "2026-10-02",
+    "name": "Carlos",
+    "phone": "(81) 98216-4045",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "Não",
+    "stage": "Perdido",
+    "status": "Desqualificado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-02",
+    "contactsCount": 7,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Perdido",
+    "notes": "Sem retorno",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Entrou em contato pelo trafego mas até o momento sem retorno",
+    "followupStatus": "Desqualificar",
+    "nextContactDate": "2026-10-13",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-03",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-03",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-06",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Feito",
+        "date": "2026-10-13",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-5",
+    "number": 5,
+    "entryDate": "2026-10-03",
+    "name": "Antônio Neres",
+    "phone": "(81) 99275-4857",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "Não",
+    "stage": "Perdido",
+    "status": "Desqualificado",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-03",
+    "contactsCount": 7,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Perdido",
+    "notes": "O lead chegou pelo trafego as 07:39",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Entrou em contato pelo trafego mas até o momento sem retorno",
+    "followupStatus": "Desqualificar",
+    "nextContactDate": "2026-10-09",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-06",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-06",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-09",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Feito",
+        "date": "2026-10-17",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-6",
+    "number": 6,
+    "entryDate": "2026-10-03",
+    "name": "Givaldo",
+    "phone": "(81) 99236-9505",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "Não",
+    "stage": "Perdido",
+    "status": "Desqualificado",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-05",
+    "contactsCount": 7,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Perdido",
+    "notes": "O lead chegou pelo trafego as 14:39",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Entrou em contato pelo trafego mas até o momento sem retorno",
+    "followupStatus": "Desqualificar",
+    "nextContactDate": "2026-10-09",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-06",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-06",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-09",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Feito",
+        "date": "2026-10-17",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-7",
+    "number": 7,
+    "entryDate": "2026-10-03",
+    "name": "Siri",
+    "phone": "(81) 99130-8337",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "Não",
+    "stage": "Perdido",
+    "status": "Desqualificado",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-05",
+    "contactsCount": 7,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Perdido",
+    "notes": "O lead chegou pelo trafego as 20:25",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Entrou em contato pelo trafego mas até o momento sem retorno",
+    "followupStatus": "Desqualificar",
+    "nextContactDate": "2026-10-09",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-06",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-06",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-09",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Feito",
+        "date": "2026-10-17",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-8",
+    "number": 8,
+    "entryDate": "2026-10-04",
+    "name": "Carlos André",
+    "phone": "(81) 99713-4251",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "Não",
+    "stage": "Perdido",
+    "status": "Desqualificado",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-05",
+    "contactsCount": 7,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Perdido",
+    "notes": "O lead chegou pelo trafego as 10:43//",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Entrou em contato pelo trafego mas até o momento sem retorno",
+    "followupStatus": "Desqualificar",
+    "nextContactDate": "2026-10-09",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-06",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-06",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-09",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Feito",
+        "date": "2026-10-17",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-9",
+    "number": 9,
+    "entryDate": "2026-10-04",
+    "name": "Jonathan",
+    "phone": "(84) 99685-9997",
+    "origin": "Outros",
+    "vehicle": "",
+    "qualified": "Não",
+    "stage": "Perdido",
+    "status": "Desqualificado",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-05",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Perdido",
+    "notes": "Lead so queria auxilio em relação a proteção",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Desqualificado",
+    "followupStatus": "Desqualificar",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-06",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-10",
+    "number": 10,
+    "entryDate": "2026-10-05",
+    "name": "Rosa Kelly",
+    "phone": "(84) 99849-6897",
+    "origin": "Outros",
+    "vehicle": "Fan 160",
+    "qualified": "Sim",
+    "stage": "Fechado",
+    "status": "Associado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-05",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": 80.0,
+    "closingDate": "2026-10-05",
+    "result": "Fechado",
+    "notes": "FECHADO",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Sim",
+    "noResponseReason": "Fechado",
+    "followupStatus": "Fechado",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-05",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d2": {
+        "day": 2,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-11",
+    "number": 11,
+    "entryDate": "2026-10-02",
+    "name": "Fabio Andre",
+    "phone": "(81) 97303-1665",
+    "origin": "Outros",
+    "vehicle": "Fan 160",
+    "qualified": "Sim",
+    "stage": "Fechado",
+    "status": "Associado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-02",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": 0.0,
+    "closingDate": "2026-10-02",
+    "result": "Fechado",
+    "notes": "EXTERNO",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Sim",
+    "noResponseReason": "Fechado",
+    "followupStatus": "Fechado",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-02",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d2": {
+        "day": 2,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-12",
+    "number": 12,
+    "entryDate": "2026-10-06",
+    "name": "Neto",
+    "phone": "(81) 99180-1880",
+    "origin": "Outros",
+    "vehicle": "SBM 250",
+    "qualified": "Sim",
+    "stage": "Fechado",
+    "status": "Associado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-06",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": 0.0,
+    "closingDate": "2026-10-06",
+    "result": "Fechado",
+    "notes": "EXTERNO",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Sim",
+    "noResponseReason": "Fechado",
+    "followupStatus": "Fechado",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-06",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d2": {
+        "day": 2,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-13",
+    "number": 13,
+    "entryDate": "2026-10-06",
+    "name": "Jorge",
+    "phone": "(81) 99485-0430",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "Não",
+    "stage": "Perdido",
+    "status": "Desqualificado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-06",
+    "contactsCount": 7,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Perdido",
+    "notes": "Lead entrou em contato as 04:05// Lead não deu retorno sobre o que seria então foi enviado outra mensagem para questionar ele sobre isso//Desqualificado devido desde o primeiro contato não houve mais retorno",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Entrou em contato pelo trafego mas até o momento sem retorno",
+    "followupStatus": "Desqualificar",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-07",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-07",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-13",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Feito",
+        "date": "2026-10-21",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-14",
+    "number": 14,
+    "entryDate": "2026-10-06",
+    "name": "Eduardo",
+    "phone": "(84) 98851-5961",
+    "origin": "Indicação",
+    "vehicle": "Bajaj 400",
+    "qualified": "Sim",
+    "stage": "Fechado",
+    "status": "Associado",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-06",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": 100.0,
+    "closingDate": "2026-10-10",
+    "result": "Fechado",
+    "notes": "Lead foi encaminhado para Olavo, e fechou",
+    "seller": "Olavo/Anne",
+    "channel": "WhatsApp",
+    "responded": "Sim",
+    "noResponseReason": "Fechou com Olavo",
+    "followupStatus": "Fechado",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-07",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d2": {
+        "day": 2,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-15",
+    "number": 15,
+    "entryDate": "2026-10-06",
+    "name": "Renato",
+    "phone": "(84) 99998-4892",
+    "origin": "Indicação",
+    "vehicle": "Factor 150",
+    "qualified": "Não",
+    "stage": "Perdido",
+    "status": "Desqualificado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-06",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Perdido",
+    "notes": "",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Indicação de um associado// Foi encaminhado para Olavo mas até o presente momento não houve retorno",
+    "followupStatus": "Desqualificar",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-07",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-16",
+    "number": 16,
+    "entryDate": "2026-10-07",
+    "name": "Juce",
+    "phone": "(81) 99848-6872",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "A verificar",
+    "stage": "1º Contato",
+    "status": "Aguardando",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-07",
+    "contactsCount": 7,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Sem retorno",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "",
+    "followupStatus": "Em andamento",
+    "nextContactDate": "2026-10-10",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-08",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-08",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-13",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Feito",
+        "date": "2026-10-21",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-17",
+    "number": 17,
+    "entryDate": "2026-10-08",
+    "name": "Salah",
+    "phone": "(81) 98735-6485",
+    "origin": "Outros",
+    "vehicle": "",
+    "qualified": "Não",
+    "stage": "Perdido",
+    "status": "Desqualificado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-08",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Perdido",
+    "notes": "Lead provavelmente pesquisando, pois a foto fo perfil tinha ao banner da Aggily",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Lead estava filtrando sobre a proteção pois a sua foto do perfil tinha coisa a Agilly, ainda tentei pagar de doida mas ele enrolou. Havia marcado de passar a tratativa pessoalmente, mas ele ficou com varias desculpas e acabou cancelando a tratativa",
+    "followupStatus": "Desqualificar",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-09",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pulado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-18",
+    "number": 18,
+    "entryDate": "2026-10-08",
+    "name": "Yta",
+    "phone": "(83) 99346-2823",
+    "origin": "Tráfego pago",
+    "vehicle": "Mercedes 710",
+    "qualified": "A verificar",
+    "stage": "Proposta enviada",
+    "status": "Desqualificado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-08",
+    "contactsCount": 7,
+    "mainObjection": "",
+    "proposalValue": 380.0,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Cotação enviada, sem retorno",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Pendente",
+    "noResponseReason": "Passei a cotação para o lead mas ela não deu retorno",
+    "followupStatus": "Em andamento",
+    "nextContactDate": "2026-10-24",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-10",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-10",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-13",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Feito",
+        "date": "2026-10-21",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-19",
+    "number": 19,
+    "entryDate": "2026-10-08",
+    "name": "Maria Silva",
+    "phone": "(11) 99107-1363",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "A verificar",
+    "stage": "Perdido",
+    "status": "Desqualificado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-08",
+    "contactsCount": 7,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Perdido",
+    "notes": "Aguardando retorno",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Pendente",
+    "noResponseReason": "Lead entrou pelo trafego mas não houve retorno",
+    "followupStatus": "Aguardando resposta",
+    "nextContactDate": "2026-10-24",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-10",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-10",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-13",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Feito",
+        "date": "2026-10-21",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-20",
+    "number": 20,
+    "entryDate": "2026-10-09",
+    "name": "Vanusa",
+    "phone": "(81) 98980-7030",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "A verificar",
+    "stage": "Perdido",
+    "status": "Desqualificado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-09",
+    "contactsCount": 7,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Perdido",
+    "notes": "Aguardando retorno",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Pendente",
+    "noResponseReason": "Lead entrou pelo trafego mas não houve retorno",
+    "followupStatus": "Aguardando resposta",
+    "nextContactDate": "2026-10-24",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-10",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-10",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-13",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Feito",
+        "date": "2026-10-21",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-21",
+    "number": 21,
+    "entryDate": "2026-10-11",
+    "name": "Edilson y José Alan",
+    "phone": "(81) 99293-9529",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "A verificar",
+    "stage": "1º Contato",
+    "status": "Aguardando",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-13",
+    "contactsCount": 3,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Chegou no domingo dia 11/10",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Pendente",
+    "noResponseReason": "Lead entrou pelo trafego mas não houve retorno",
+    "followupStatus": "Aguardando resposta",
+    "nextContactDate": "2026-10-24",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-14",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-14",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-17",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-22",
+    "number": 22,
+    "entryDate": "2026-10-11",
+    "name": "Neide",
+    "phone": "(81) 98980-2951",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "A verificar",
+    "stage": "1º Contato",
+    "status": "Aguardando",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-13",
+    "contactsCount": 3,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Chegou no domingo dia 11/10",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Pendente",
+    "noResponseReason": "Lead entrou pelo trafego mas não houve retorno",
+    "followupStatus": "Aguardando resposta",
+    "nextContactDate": "2026-10-24",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-14",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-14",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-17",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-23",
+    "number": 23,
+    "entryDate": "2026-10-12",
+    "name": "Gabriela Oliveira",
+    "phone": "(81) 99937-5286",
+    "origin": "Tráfego pago",
+    "vehicle": "Moto eletrica",
+    "qualified": "A verificar",
+    "stage": "1º Contato",
+    "status": "Aguardando",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-13",
+    "contactsCount": 3,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Sem retorno",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Pendente",
+    "noResponseReason": "Lead entrou em contato solicitando a cotação para uma moto eletrica, porém não deu retorno após a solicitação da nota",
+    "followupStatus": "Aguardando resposta",
+    "nextContactDate": "2026-10-24",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-14",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-14",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-17",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-24",
+    "number": 24,
+    "entryDate": "2026-10-13",
+    "name": "Suel",
+    "phone": "(84) 99205-3239",
+    "origin": "Outros",
+    "vehicle": "Factor 150",
+    "qualified": "Sim",
+    "stage": "Fechado",
+    "status": "Associado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-13",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": 150.0,
+    "closingDate": "2026-10-13",
+    "result": "Fechado",
+    "notes": "Fechou",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Sim",
+    "noResponseReason": "Fechou",
+    "followupStatus": "Fechado",
+    "nextContactDate": "2026-10-22",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-13",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d2": {
+        "day": 2,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-25",
+    "number": 25,
+    "entryDate": "2026-10-09",
+    "name": "Erika",
+    "phone": "(81) 98481-4926",
+    "origin": "Outros",
+    "vehicle": "Compasse",
+    "qualified": "Sim",
+    "stage": "Fechado",
+    "status": "Associado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-13",
+    "contactsCount": 3,
+    "mainObjection": "",
+    "proposalValue": 375.0,
+    "closingDate": "2026-10-14",
+    "result": "Fechado",
+    "notes": "Tratativa feita pelo indicador. Informada pelo jamerson que irá entrar na minha contagem",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Sim",
+    "noResponseReason": "Fechou",
+    "followupStatus": "Fechado",
+    "nextContactDate": "2026-10-22",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-14",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-14",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d4": {
+        "day": 4,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-26",
+    "number": 26,
+    "entryDate": "2026-10-14",
+    "name": "Marcelo Taxi",
+    "phone": "(81) 99277-5322",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "A verificar",
+    "stage": "1º Contato",
+    "status": "Aguardando",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-14",
+    "contactsCount": 3,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Lead entrou em contato às 06:51",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Lead entrou pelo trafego mas não houve retorno",
+    "followupStatus": "Aguardando resposta",
+    "nextContactDate": "2026-10-19",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-15",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-15",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-19",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-27",
+    "number": 27,
+    "entryDate": "2026-10-14",
+    "name": "Valmir",
+    "phone": "(81) 99564-8239",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "A verificar",
+    "stage": "1º Contato",
+    "status": "Aguardando",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-14",
+    "contactsCount": 3,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Sem retorno",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Lead entrou pelo trafego mas não houve retorno",
+    "followupStatus": "Aguardando resposta",
+    "nextContactDate": "2026-10-19",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-15",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-15",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-19",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-28",
+    "number": 28,
+    "entryDate": "2026-10-15",
+    "name": "Luiz",
+    "phone": "(84) 99233-6537",
+    "origin": "Indicação",
+    "vehicle": "Fiat Punto",
+    "qualified": "Sim",
+    "stage": "Fechado",
+    "status": "Associado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-15",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": 135.0,
+    "closingDate": "2026-10-16",
+    "result": "Fechado",
+    "notes": "Fechou",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Sim",
+    "noResponseReason": "Fechou",
+    "followupStatus": "Fechado",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-16",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d2": {
+        "day": 2,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pulado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-29",
+    "number": 29,
+    "entryDate": "2026-10-15",
+    "name": "Rubens",
+    "phone": "(81) 99269-1855",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "A verificar",
+    "stage": "1º Contato",
+    "status": "Aguardando",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-15",
+    "contactsCount": 3,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Sem retorno",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Sim",
+    "noResponseReason": "Lead entrou pelo trafego mas não houve retorno",
+    "followupStatus": "Aguardando resposta",
+    "nextContactDate": "2026-10-26",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-16",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-10-16",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-10-19",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-30",
+    "number": 30,
+    "entryDate": "2026-10-15",
+    "name": "Charles",
+    "phone": "(84) 98673-0773",
+    "origin": "Indicação",
+    "vehicle": "Pop/Crypton",
+    "qualified": "Não",
+    "stage": "Perdido",
+    "status": "Desqualificado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-15",
+    "contactsCount": 1,
+    "mainObjection": "Tá caro",
+    "proposalValue": 89.9,
+    "closingDate": null,
+    "result": "Perdido",
+    "notes": "Lead não gostou do valor do plano, pois argumentou que o amigo paga o mesmo valor numa moto de alta cilidrada",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Lead reclamou do valor após pedir o adicional do rastreador, após isso foi solicitado a isenção mas n foi aprovada",
+    "followupStatus": "Desqualificar",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-15",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-31",
+    "number": 31,
+    "entryDate": "2026-10-16",
+    "name": "Alison",
+    "phone": "(81) 99890-0770",
+    "origin": "Orgânico",
+    "vehicle": "Start 160",
+    "qualified": "Sim",
+    "stage": "Fechado",
+    "status": "Associado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-16",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": 60.0,
+    "closingDate": "2026-10-16",
+    "result": "Fechado",
+    "notes": "Fechou",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Sim",
+    "noResponseReason": "Fechou",
+    "followupStatus": "Fechado",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-16",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d2": {
+        "day": 2,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-32",
+    "number": 32,
+    "entryDate": "2026-10-17",
+    "name": "Fernanda",
+    "phone": "(81) 99722-4429",
+    "origin": "Outros",
+    "vehicle": "Nivus",
+    "qualified": "A verificar",
+    "stage": "Proposta enviada",
+    "status": "Aguardando",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-17",
+    "contactsCount": 1,
+    "mainObjection": "Precisa do cônjuge",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Lead não informou por onde veio// Entrou em contato as 6:28// Informou que vai falar com o marido para resolver a proteção",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Sim",
+    "noResponseReason": "O lead solicitou a cotação para proteção de um nivus, porem disse que quer conversar com o esposo primeiro pois o veiculo é dele",
+    "followupStatus": "Aguardando cônjuge",
+    "nextContactDate": "2026-10-19",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-19",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-33",
+    "number": 33,
+    "entryDate": "2026-10-16",
+    "name": "Weverton",
+    "phone": "(81) 99197-1609",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "A verificar",
+    "stage": "1º Contato",
+    "status": "Aguardando",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-16",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Lead entrou pelo trafego mas não houve retorno",
+    "followupStatus": "Em andamento",
+    "nextContactDate": "2026-10-22",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-19",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-34",
+    "number": 34,
+    "entryDate": "2026-10-16",
+    "name": "Lucicleide",
+    "phone": "(87) 99972-8352",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "A verificar",
+    "stage": "1º Contato",
+    "status": "Aguardando",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-17",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Sem retorno",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Lead entrou pelo trafego mas não houve retorno",
+    "followupStatus": "Em andamento",
+    "nextContactDate": "2026-10-22",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-19",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-35",
+    "number": 35,
+    "entryDate": "2026-10-16",
+    "name": "Roclaudino",
+    "phone": "(81) 98793-7063",
+    "origin": "Outros",
+    "vehicle": "",
+    "qualified": "A verificar",
+    "stage": "1º Contato",
+    "status": "Aguardando",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-17",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Sem retorno",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Lead entrou pelo trafego mas não houve retorno",
+    "followupStatus": "Em andamento",
+    "nextContactDate": "2026-10-22",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-19",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-36",
+    "number": 36,
+    "entryDate": "2026-10-18",
+    "name": "Bernadete",
+    "phone": "(81) 98113-0729",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "A verificar",
+    "stage": "1º Contato",
+    "status": "Aguardando",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-19",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Lead entrou em contato no dia 18/10, fiz o atendimento mas não houve retorno da parte do lead",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Lead entrou pelo trafego mas não houve retorno",
+    "followupStatus": "Em andamento",
+    "nextContactDate": "2026-10-24",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-21",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-37",
+    "number": 37,
+    "entryDate": "2026-10-17",
+    "name": "Sergiberto Sebastião",
+    "phone": "(81) 97115-9823",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "A verificar",
+    "stage": "1º Contato",
+    "status": "Aguardando",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-19",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Lead entrou em contato no dia 17/10 às 15:42",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Lead entrou pelo trafego mas não houve retorno",
+    "followupStatus": "Em andamento",
+    "nextContactDate": "2026-10-24",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-21",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-38",
+    "number": 38,
+    "entryDate": "2026-10-18",
+    "name": "Vera Nielsen",
+    "phone": "(81) 98884-1544",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "A verificar",
+    "stage": "1º Contato",
+    "status": "Aguardando",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-19",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Lead entrou em contato dia 18/10 às 16:51",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Lead entrou pelo trafego mas não houve retorno",
+    "followupStatus": "Em andamento",
+    "nextContactDate": "2026-10-24",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-21",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-39",
+    "number": 39,
+    "entryDate": "2026-10-17",
+    "name": "Chave",
+    "phone": "(81) 98496-2200",
+    "origin": "Tráfego pago",
+    "vehicle": "Factor 125",
+    "qualified": "A verificar",
+    "stage": "Proposta enviada",
+    "status": "Aguardando",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-19",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Lead havia entrado em cotato no dia 18/10 às 17:15, foi dado o retorno e o lead respondeu com o modelo e ano do veiculo, cotação encaminhada com os planos basico no valor de  R$50,00 master no valor de R$63,00 e exclusivo no valor de R$70,00 após passar os valores, não houve retorno do lead",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Não",
+    "noResponseReason": "Cotação enviada mas sem retorno",
+    "followupStatus": "Em andamento",
+    "nextContactDate": "2026-10-24",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-21",
+        "channel": "WhatsApp",
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-40",
+    "number": 40,
+    "entryDate": "2026-10-19",
+    "name": "Antônio Dias",
+    "phone": "(81) 98160-3347",
+    "origin": "Outros",
+    "vehicle": "Pegeot  203",
+    "qualified": "Sim",
+    "stage": "Fechado",
+    "status": "Associado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-19",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": 92.0,
+    "closingDate": "2026-10-19",
+    "result": "Fechado",
+    "notes": "Fechou// Contato encaminhado por Jamerson",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Sim",
+    "noResponseReason": "Fechou",
+    "followupStatus": "Fechado",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-19",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d2": {
+        "day": 2,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Encerrado",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-41",
+    "number": 41,
+    "entryDate": "2026-10-19",
+    "name": "Daniel",
+    "phone": "(81) 99329-4795",
+    "origin": "Outros",
+    "vehicle": "Fan 160",
+    "qualified": "Sim",
+    "stage": "Proposta enviada",
+    "status": "Em andamento",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-19",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Lead foi repassado pelo setor de cadastro, esse lead queria fazer a cotação de uma moto, foi encaminhado os planos e após isso o lead informou que estava so esperando a seguradora que ele se encontra da baixa na proteção antiga \nBasico:R$70,89\nMaster: R$80,00\nExclusivo:R$95,00",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Sim",
+    "noResponseReason": "Lead foi repassado pelo setor de cadastro, esse lead queria fazer a cotação de uma moto, foi encaminhado os planos e após isso o lead informou que estava so esperando a seguradora que ele se encontra da baixa na proteção antiga",
+    "followupStatus": "Em andamento",
+    "nextContactDate": "2026-10-24",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-21",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-42",
+    "number": 42,
+    "entryDate": "2026-10-19",
+    "name": "Lucivania",
+    "phone": "(84) 98803-5508",
+    "origin": "Outros",
+    "vehicle": "Fan160",
+    "qualified": "A verificar",
+    "stage": "Proposta enviada",
+    "status": "Aguardando",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-19",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Sim",
+    "noResponseReason": "Cotação enviada mas sem retorno",
+    "followupStatus": "Em andamento",
+    "nextContactDate": "2026-10-24",
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-10-21",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-43",
+    "number": 43,
+    "entryDate": "2026-09-23",
+    "name": "José Adebson",
+    "phone": "(11) 94860-0696",
+    "origin": "Outros",
+    "vehicle": "Ford KA",
+    "qualified": "Sim",
+    "stage": "Fechado",
+    "status": "Associado",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-09-23",
+    "contactsCount": 9,
+    "mainObjection": "",
+    "proposalValue": 250.0,
+    "closingDate": "2026-10-21",
+    "result": "Fechado",
+    "notes": "Lead é primo de sei Jamerson, e realizou a tratativa desde o mes passado, mas foi informado que so fecharia após o dia 15/10, ele mesmo entrou em contato para realizar o fechamento, e depois de muito e vai e volta deu certo!!!!!!!!!!!",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "Sim",
+    "noResponseReason": "Fechou",
+    "followupStatus": "Fechado",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Feito",
+        "date": "2026-09-24",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d2": {
+        "day": 2,
+        "status": "Feito",
+        "date": "2026-09-24",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d3": {
+        "day": 3,
+        "status": "Feito",
+        "date": "2026-09-25",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d4": {
+        "day": 4,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d5": {
+        "day": 5,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d6": {
+        "day": 6,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d7": {
+        "day": 7,
+        "status": "Feito",
+        "date": "2026-09-28",
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d8": {
+        "day": 8,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d9": {
+        "day": 9,
+        "status": "Feito",
+        "date": null,
+        "channel": "WhatsApp",
+        "responded": true
+      },
+      "d10": {
+        "day": 10,
+        "status": "Feito",
+        "date": "2026-10-17",
+        "channel": "WhatsApp",
+        "responded": true
+      }
+    }
+  },
+  {
+    "id": "lead-44",
+    "number": 44,
+    "entryDate": "2026-10-21",
+    "name": "Deda do Taxi",
+    "phone": "(81) 99311-9048",
+    "origin": "Tráfego pago",
+    "vehicle": "",
+    "qualified": "A verificar",
+    "stage": "1º Contato",
+    "status": "Em andamento",
+    "contactUnder5Min": "Sim",
+    "firstContactDate": "2026-10-21",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Lead entrou pelo trafego mas não houve retorno",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "N?o",
+    "noResponseReason": "",
+    "followupStatus": "Em andamento",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-45",
+    "number": 45,
+    "entryDate": "2026-10-21",
+    "name": "Clarisse",
+    "phone": "(81) 99142-3458",
+    "origin": "Tráfego pago",
+    "vehicle": "Avelozz",
+    "qualified": "A verificar",
+    "stage": "Proposta enviada",
+    "status": "Em andamento",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-22",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Lead entrou em contato às 18:27",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "N?o",
+    "noResponseReason": "",
+    "followupStatus": "Em andamento",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  },
+  {
+    "id": "lead-46",
+    "number": 46,
+    "entryDate": "2026-10-21",
+    "name": "Gugga",
+    "phone": "(81) 99419-6462",
+    "origin": "Tráfego pago",
+    "vehicle": "Oroch",
+    "qualified": "A verificar",
+    "stage": "Diagnóstico",
+    "status": "Em andamento",
+    "contactUnder5Min": "Não",
+    "firstContactDate": "2026-10-22",
+    "contactsCount": 1,
+    "mainObjection": "",
+    "proposalValue": null,
+    "closingDate": null,
+    "result": "Em aberto",
+    "notes": "Lead entrou em contato às 19:02",
+    "seller": "Anne",
+    "channel": "WhatsApp",
+    "responded": "N?o",
+    "noResponseReason": "",
+    "followupStatus": "Em andamento",
+    "nextContactDate": null,
+    "cadence": {
+      "d1": {
+        "day": 1,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d2": {
+        "day": 2,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d3": {
+        "day": 3,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d4": {
+        "day": 4,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d5": {
+        "day": 5,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d6": {
+        "day": 6,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d7": {
+        "day": 7,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d8": {
+        "day": 8,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d9": {
+        "day": 9,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      },
+      "d10": {
+        "day": 10,
+        "status": "Pendente",
+        "date": null,
+        "channel": null,
+        "responded": false
+      }
+    }
+  }
+]
