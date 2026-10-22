@@ -65,6 +65,21 @@ server.tool(
   }
 );
 
+// 3b. Sugestões de Abordagem Ativa & Pontos de Atenção por Lead
+server.tool(
+  'get_active_contact_suggestions_for_leads',
+  'Retorna sugestões personalizadas de contato ativo, pontos de atenção, melhor canal e script de WhatsApp/Ligação para cada lead com base no preenchimento da vendedora',
+  {
+    seller: z.string().optional().describe('Filtrar por vendedora (ex: Anne)'),
+  },
+  async ({ seller }) => {
+    const data = await callCrmMcpApi('get_active_contact_suggestions_for_leads', { seller });
+    return {
+      content: [{ type: 'text', text: JSON.stringify(data.result, null, 2) }],
+    };
+  }
+);
+
 // 4. Enviar Feedback Automatizado do Claude para o painel do vendedor
 server.tool(
   'send_automated_feedback_to_seller',

@@ -1,10 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getStoredLeads, saveStoredLeads, getStoredFeedbacks, saveStoredFeedbacks } from '@/lib/store';
 import { computeAnalytics, getCadenceProgress } from '@/lib/analytics';
+import { generateLeadSuggestion } from '@/lib/suggestions';
 
 /**
  * Endpoint REST + JSON-RPC para o Servidor MCP (Model Context Protocol) do Autocar CRM.
- * Permite que o Claude consulte diagnósticos, leads parados, cadência D+1..D+10 e envie feedbacks automáticos.
+ * Permite que o Claude consulte diagnósticos, leads parados, cadência D+1..D+10, sugestões de abordagem e envie feedbacks automáticos.
  */
 export async function GET() {
   const leads = getStoredLeads();
@@ -13,12 +14,13 @@ export async function GET() {
 
   return NextResponse.json({
     server: 'autocar-crm-mcp',
-    version: '1.0.0',
+    version: '1.1.0',
     tools: [
       'get_crm_dashboard_summary',
       'get_diagnostic_failures_and_positives',
       'list_leads_needing_followup_d1_to_d10',
-      'send_Automated_feedback_to_seller',
+      'get_active_contact_suggestions_for_leads',
+      'send_automated_feedback_to_seller',
       'update_lead_followup_or_stage',
     ],
     snapshot: {
@@ -77,6 +79,28 @@ export async function POST(req: NextRequest) {
           progress: getCadenceProgress(l),
         }))
         .filter((item) => item.stage !== 'Fechado' && (item.stage !== 'Perdido' || item.progress.isPrematurelyLost));
+
+      return NextResponse.json({ result: list });
+    }
+
+    if (tool === 'get_active_contact_suggestions_for_leads') {
+      const sellerFilter = args.seller;
+      const list = leads
+        .filter((l) => !sellerFilter || l.seller.toLowerCase() === sellerFilter.toLowerCase())
+        .filter((l) => l.stage !== 'Fechado')
+        .map((l) => ({
+          id: l.id,
+          name: l.name,
+          phone: l.phone,
+          seller: l.seller,
+          stage: l.stage,
+          vehicle: l.vehicle,
+          mainObjection: l.mainObjection,
+          proposalValue: l.proposalValue,
+          notes: l.notes,
+          suggestion: generateLeadSuggestion(l),
+        }))
+        .sort((a, b) => b.suggestion.priorityScore - a.suggestion.priorityScore);
 
       return NextResponse.json({ result: list });
     }

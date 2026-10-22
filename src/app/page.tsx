@@ -31,6 +31,7 @@ import {
   LayoutGrid,
   Table as TableIcon,
   Bell,
+  Lightbulb,
 } from 'lucide-react';
 import * as XLSX from 'xlsx';
 import {
@@ -45,6 +46,7 @@ import {
   CadenceItem,
 } from '@/types/crm';
 import { computeAnalytics, getCadenceProgress } from '@/lib/analytics';
+import { generateLeadSuggestion } from '@/lib/suggestions';
 
 export default function AutocarCRMApp() {
   // Active Role & User Profile
@@ -58,7 +60,11 @@ export default function AutocarCRMApp() {
   const [selectedSellerFilter, setSelectedSellerFilter] = useState<string>('Todos');
 
   // Navigation Tabs
-  const [activeTab, setActiveTab] = useState<'leads' | 'kanban' | 'followup' | 'dashboard' | 'mcp'>('dashboard');
+  const [activeTab, setActiveTab] = useState<
+    'leads' | 'kanban' | 'followup' | 'suggestions' | 'dashboard' | 'mcp'
+  >('dashboard');
+  const [suggestionFilter, setSuggestionFilter] = useState<'TODOS' | 'URGENTE HOJE' | 'PROPOSTAS' | 'RESGATE_D10'>('TODOS');
+  const [copiedScriptId, setCopiedScriptId] = useState<string | null>(null);
 
   // Data State
   const [leads, setLeads] = useState<Lead[]>([]);
@@ -219,11 +225,13 @@ export default function AutocarCRMApp() {
   }, [feedbacks, currentUser, selectedSellerFilter]);
 
   // WhatsApp direct link helper
-  const getWhatsAppUrl = (lead: Lead, customDay?: number) => {
+  const getWhatsAppUrl = (lead: Lead, customDay?: number, customScript?: string) => {
     const cleanPhone = lead.phone.replace(/\D/g, '');
     const fullPhone = cleanPhone.startsWith('55') ? cleanPhone : `55${cleanPhone}`;
     const vehicleText = lead.vehicle ? ` para o seu ${lead.vehicle}` : '';
-    const msg = customDay
+    const msg = customScript
+      ? customScript.replace(/^\[Enviar em Áudio WZ de 20s\]:\s*"?|"?$/g, '')
+      : customDay
       ? `Olá ${lead.name}, tudo bem? Aqui é a ${lead.seller} da Autocar Proteção Veicular! Estou passando no nosso ${customDay}º dia de acompanhamento para saber se conseguiu avaliar a proposta de proteção${vehicleText}. Ficou alguma dúvida?`
       : `Olá ${lead.name}, tudo bem? Aqui é a ${lead.seller} da Autocar Proteção Veicular! Vi seu interesse na proteção${vehicleText} e gostaria de te ajudar.`;
     return `https://wa.me/${fullPhone}?text=${encodeURIComponent(msg)}`;
@@ -625,6 +633,18 @@ export default function AutocarCRMApp() {
             <span className="px-1.5 py-0.2 rounded-full text-[10px] bg-amber-500/20 text-amber-300 border border-amber-500/30">
               Meta 10º Dia
             </span>
+          </button>
+
+          <button
+            onClick={() => setActiveTab('suggestions')}
+            className={`flex items-center gap-2 px-4 py-3 text-xs sm:text-sm font-medium border-b-2 transition whitespace-nowrap cursor-pointer ${
+              activeTab === 'suggestions'
+                ? 'border-emerald-500 text-emerald-400 bg-emerald-500/5'
+                : 'border-transparent text-slate-400 hover:text-slate-200'
+            }`}
+          >
+            <Lightbulb className="w-4 h-4 text-emerald-400" />
+            <span>💡 Sugestões de Contato Ativo & Pontos de Atenção</span>
           </button>
 
           <button
@@ -1493,6 +1513,283 @@ export default function AutocarCRMApp() {
                     </div>
                   );
                 })}
+            </div>
+          </div>
+        )}
+
+        {/* TAB 3B: SUGESTÕES DE CONTATO ATIVO & PONTOS DE ATENÇÃO */}
+        {activeTab === 'suggestions' && (
+          <div className="space-y-5">
+            {/* Header & Filter Pills */}
+            <div className="bg-gradient-to-r from-slate-900 via-emerald-950/30 to-slate-900 border border-emerald-500/30 rounded-2xl p-5 flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+              <div>
+                <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                  Playbook Inteligente Autocar
+                </span>
+                <h2 className="text-base sm:text-lg font-bold text-white mt-1.5 flex items-center gap-2">
+                  <Lightbulb className="w-5 h-5 text-emerald-400" />
+                  Sugestões de Abordagem Ativa & Pontos de Atenção por Lead
+                </h2>
+                <p className="text-xs text-slate-300 mt-1">
+                  O sistema lê automaticamente o que o vendedor preencheu (veículo, planos Básico/Master/Exclusivo, objeções, horário de chegada e cadência D+1..D+10) e gera os <strong>pontos de atenção</strong> + <strong>script pronto para WhatsApp/Ligação</strong>.
+                </p>
+              </div>
+
+              <div className="flex flex-wrap items-center gap-2 shrink-0">
+                {[
+                  { id: 'TODOS', label: 'Todos Ativos' },
+                  { id: 'URGENTE HOJE', label: '🔥 Urgentes Hoje' },
+                  { id: 'PROPOSTAS', label: '💰 Propostas em Aberto' },
+                  { id: 'RESGATE_D10', label: '⚠️ Resgate Antes do D+10' },
+                ].map((f) => (
+                  <button
+                    key={f.id}
+                    onClick={() =>
+                      setSuggestionFilter(
+                        f.id as 'TODOS' | 'URGENTE HOJE' | 'PROPOSTAS' | 'RESGATE_D10'
+                      )
+                    }
+                    className={`px-3 py-1.5 rounded-xl text-xs font-semibold border transition cursor-pointer ${
+                      suggestionFilter === f.id
+                        ? 'bg-emerald-600 text-white border-emerald-500 shadow-lg shadow-emerald-600/20'
+                        : 'bg-slate-900 text-slate-300 border-slate-800 hover:border-slate-700'
+                    }`}
+                  >
+                    {f.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Cards List */}
+            <div className="grid grid-cols-1 gap-4">
+              {roleScopedLeads
+                .filter((l) => l.stage !== 'Fechado')
+                .map((lead) => ({
+                  lead,
+                  suggestion: generateLeadSuggestion(lead),
+                  prog: getCadenceProgress(lead),
+                }))
+                .filter(({ lead, suggestion, prog }) => {
+                  if (suggestionFilter === 'URGENTE HOJE') {
+                    return suggestion.priorityLabel === 'URGENTE HOJE';
+                  }
+                  if (suggestionFilter === 'PROPOSTAS') {
+                    return lead.stage === 'Proposta enviada' || lead.stage === 'Negociação';
+                  }
+                  if (suggestionFilter === 'RESGATE_D10') {
+                    return prog.isPrematurelyLost || prog.isStaleOver3Days;
+                  }
+                  return true;
+                })
+                .sort((a, b) => b.suggestion.priorityScore - a.suggestion.priorityScore)
+                .map(({ lead, suggestion, prog }) => (
+                  <div
+                    key={lead.id}
+                    className={`bg-slate-900 border rounded-2xl p-5 transition shadow-lg ${
+                      suggestion.priorityLabel === 'URGENTE HOJE'
+                        ? 'border-amber-500/40'
+                        : 'border-slate-800'
+                    }`}
+                  >
+                    {/* Card Header */}
+                    <div className="flex flex-wrap items-start justify-between gap-3 pb-4 border-b border-slate-800/80">
+                      <div className="space-y-1">
+                        <div className="flex flex-wrap items-center gap-2">
+                          <span className="text-xs font-mono text-slate-500">#{lead.number}</span>
+                          <h3 className="text-base font-bold text-white">{lead.name}</h3>
+                          <span
+                            className={`px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase ${
+                              suggestion.priorityLabel === 'URGENTE HOJE'
+                                ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30'
+                                : suggestion.priorityLabel === 'ALTA PRIORIDADE'
+                                ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30'
+                                : 'bg-blue-500/20 text-blue-300 border border-blue-500/30'
+                            }`}
+                          >
+                            {suggestion.priorityLabel} · Score {suggestion.priorityScore}
+                          </span>
+                          <span className="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-slate-800 text-slate-200">
+                            Etapa: {lead.stage}
+                          </span>
+                          <span className="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-purple-500/15 text-purple-300">
+                            Cadência: {suggestion.currentDayLabel}
+                          </span>
+                          {lead.vehicle && (
+                            <span className="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-blue-500/15 text-blue-300">
+                              🚗 {lead.vehicle} ({suggestion.detectedContext.vehicleType})
+                            </span>
+                          )}
+                          {lead.proposalValue ? (
+                            <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-emerald-500/15 text-emerald-400">
+                              Proposta: R$ {lead.proposalValue.toFixed(2)}
+                            </span>
+                          ) : null}
+                        </div>
+
+                        <p className="text-xs text-slate-400">
+                          Vendedora: <strong className="text-slate-200">{lead.seller}</strong> · Origem:{' '}
+                          <strong className="text-slate-200">{lead.origin}</strong> · 1º Contato ≤5min:{' '}
+                          <strong
+                            className={
+                              lead.contactUnder5Min === 'Sim' ? 'text-emerald-400' : 'text-rose-400'
+                            }
+                          >
+                            {lead.contactUnder5Min}
+                          </strong>
+                          {lead.mainObjection && (
+                            <>
+                              {' '}
+                              · Objeção registrada:{' '}
+                              <strong className="text-rose-300">{lead.mainObjection}</strong>
+                            </>
+                          )}
+                        </p>
+                      </div>
+
+                      {/* Recommended Channel Badge */}
+                      <div className="flex items-center gap-2">
+                        <div className="text-right">
+                          <span className="text-[10px] uppercase tracking-wider text-slate-400 block">
+                            Canal Recomendado Hoje
+                          </span>
+                          <span className="text-xs font-bold text-emerald-400">
+                            ⚡ {suggestion.recommendedChannel}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Body Grid: Left = Pontos de Atenção + Anotações | Right = Estratégia + Script Pronto */}
+                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 pt-4">
+                      {/* Left 5 cols: Pontos de Atenção & Contexto Coletado */}
+                      <div className="lg:col-span-5 space-y-3">
+                        <div className="bg-amber-950/20 border border-amber-500/30 rounded-xl p-3.5">
+                          <h4 className="text-xs font-bold uppercase tracking-wider text-amber-300 flex items-center gap-1.5 mb-2">
+                            <AlertTriangle className="w-4 h-4 text-amber-400 shrink-0" />
+                            Pontos de Atenção Identificados no Lead
+                          </h4>
+                          <ul className="space-y-2 text-xs text-slate-200">
+                            {suggestion.attentionPoints.map((pt, idx) => (
+                              <li key={idx} className="flex items-start gap-2 leading-relaxed">
+                                <span className="text-amber-400 font-bold">•</span>
+                                <span>{pt}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+
+                        <div className="bg-slate-950 border border-slate-800 rounded-xl p-3.5 text-xs space-y-1.5">
+                          <span className="text-[10px] font-bold uppercase text-slate-400 block">
+                            Informações Coletadas pelo Vendedor:
+                          </span>
+                          <p className="text-slate-300 italic">
+                            {lead.notes ? `"${lead.notes}"` : 'Nenhuma observação detalhada preenchida ainda.'}
+                          </p>
+                          {lead.noResponseReason && (
+                            <p className="text-slate-400 text-[11px]">
+                              <strong>Histórico Follow-up:</strong> {lead.noResponseReason}
+                            </p>
+                          )}
+                        </div>
+                      </div>
+
+                      {/* Right 7 cols: Estratégia de Contato Ativo & Script */}
+                      <div className="lg:col-span-7 flex flex-col justify-between bg-slate-950 border border-emerald-500/30 rounded-xl p-4 space-y-3">
+                        <div className="space-y-2">
+                          <div className="flex items-center justify-between gap-2">
+                            <span className="text-[10px] font-bold uppercase px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300">
+                              Como Fazer o Contato Ativo Agora
+                            </span>
+                            {suggestion.detectedContext.quotedPlans.length > 0 && (
+                              <span className="text-[11px] text-slate-400">
+                                Planos citados:{' '}
+                                <strong className="text-white">
+                                  {suggestion.detectedContext.quotedPlans.join(', ')}
+                                </strong>
+                              </span>
+                            )}
+                          </div>
+                          <h4 className="text-sm font-bold text-white">{suggestion.strategyTitle}</h4>
+                          <p className="text-xs text-slate-300 leading-relaxed">
+                            {suggestion.strategyExplanation}
+                          </p>
+
+                          {/* Script Box */}
+                          <div className="mt-2 bg-slate-900 border border-slate-800 rounded-xl p-3">
+                            <div className="flex items-center justify-between mb-1">
+                              <span className="text-[10px] font-semibold uppercase text-emerald-400">
+                                💬 Script Personalizado Sugerido:
+                              </span>
+                              <button
+                                onClick={() => {
+                                  navigator.clipboard.writeText(suggestion.suggestedScript);
+                                  setCopiedScriptId(lead.id);
+                                  setTimeout(() => setCopiedScriptId(null), 2000);
+                                }}
+                                className="inline-flex items-center gap-1 text-[11px] text-slate-300 hover:text-white cursor-pointer"
+                              >
+                                {copiedScriptId === lead.id ? (
+                                  <>
+                                    <Check className="w-3 h-3 text-emerald-400" />
+                                    <span className="text-emerald-400">Copiado!</span>
+                                  </>
+                                ) : (
+                                  <>
+                                    <Copy className="w-3 h-3" />
+                                    <span>Copiar Script</span>
+                                  </>
+                                )}
+                              </button>
+                            </div>
+                            <p className="text-xs text-emerald-100 leading-relaxed font-medium">
+                              {suggestion.suggestedScript}
+                            </p>
+                          </div>
+                        </div>
+
+                        {/* Action Buttons */}
+                        <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-slate-800/80">
+                          <div className="flex items-center gap-2">
+                            {lead.phone && (
+                              <a
+                                href={getWhatsAppUrl(
+                                  lead,
+                                  prog.nextPendingDay || 1,
+                                  suggestion.suggestedScript
+                                )}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold shadow-lg shadow-emerald-600/20 transition"
+                              >
+                                <MessageCircle className="w-4 h-4" />
+                                <span>Enviar Script no WhatsApp Agora</span>
+                              </a>
+                            )}
+                            <button
+                              onClick={() =>
+                                toggleCadenceDay(lead.id, prog.nextPendingDay || Math.min(10, prog.doneDays + 1))
+                              }
+                              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl bg-blue-600/20 hover:bg-blue-600/30 text-blue-300 border border-blue-500/30 text-xs font-semibold transition cursor-pointer"
+                            >
+                              <CheckCircle2 className="w-3.5 h-3.5" />
+                              <span>
+                                Marcar D+{prog.nextPendingDay || Math.min(10, prog.doneDays + 1)} como Feito
+                              </span>
+                            </button>
+                          </div>
+
+                          <button
+                            onClick={() => setEditingLead(lead)}
+                            className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-medium cursor-pointer"
+                          >
+                            Atualizar Anotações do Lead
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
             </div>
           </div>
         )}
